@@ -1,7 +1,7 @@
 # DiscordDispenser
 > Self-hostable Discord bot to help with Hacking
 
-D2 is a Discord bot, that lets you do enumeration on target web domains from the comfort of your Discord server. Build up the Docker container, give it a bot token & a webhook, and enjoy! 
+D2 is a Discord bot that lets you do enumeration on target web domains from the comfort of your Discord server. Build up the Docker container, give it a bot token & a webhook, and enjoy! 
 
 ## Description:
 `DiscordDispenser` -- D2 for short -- is meant to be used as a tool to help with Bug Bounty Hunting & Penetration testing. Users can issue commands via Discord, and the bot returns the output logs directly within the chat of your choosing. This setup provides a remote way to control and monitor a security testing process.
@@ -10,7 +10,7 @@ D2 is a Discord bot, that lets you do enumeration on target web domains from the
 
 ## Usage:
 
-You need to create a bot token, and a webhook. You can find tutorials for both online, but here you can find a few links that work at the time of publishing:
+You need to create a bot token, and a webhook. You can find tutorials for both online, such as the following:
 - [Bot token](https://discordgsm.com/guide/how-to-get-a-discord-bot-token)
 - [Webhook](https://docs.gitlab.com/ee/user/project/integrations/discord_notifications.html)
 
@@ -29,7 +29,7 @@ docker run d2
 
 Without the TOKEN and the WEBHOOK, d2 **will not work**.
 
-Once the Bot is online, you can invite to your server. Add a new domain to be scanned with the following command:
+Once the Bot is online, you can invite to the server. Add a new domain to be scanned with the following command:
 ```
 !add example.domain
 ```
