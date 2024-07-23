@@ -45,6 +45,8 @@ If you wish to modify the tools or commands that are being ran, you can find the
 Adding more tools is a bit difficult at the moment, but in theory the software could be modified in future to run from a .toml or .yaml file for easier addition of tools. As it stands, this software is written more as a PoC. 
 
 ## Notes
+<sup><sub>
 Important: This project is intended for educational and lawful purposes only. The author and contributors are not responsible for any misuse or illegal activities that may arise from using this software. By using this software, you agree to comply with all applicable laws and regulations. If you are uncertain about the legality of your actions, please seek legal advice before proceeding. The author and contributors disclaim any and all liability for any direct, indirect, or consequential loss or damage arising from your use of the software. Use this software at your own risk.
+</sub></sup>
 
 Thank you for your understanding and cooperation.
