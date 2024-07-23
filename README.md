@@ -14,6 +14,8 @@ You need to create a bot token, and a webhook. You can find tutorials for both o
 - [Bot token](https://discordgsm.com/guide/how-to-get-a-discord-bot-token)
 - [Webhook](https://docs.gitlab.com/ee/user/project/integrations/discord_notifications.html)
 
+Add the token and the webhook address to the `.env` file, and build the docker container.
+
 To get the docker container running, you should be able to just docker compose it:
 ```
 docker compose up --build
